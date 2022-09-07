@@ -44,8 +44,8 @@ Git으로 파일을 관리하면, 업데이트 이력이 Git에 저장되지.
 
 Git은 원격 저장소와 로컬 저장소 두 종류의 저장소를 제공합니다.
 
--   원격 저장소(Remote Repository): 파일이 원격 저장소 전용 서버에서 관리되며 여러 사람이 함께 공유하기 위한 저장소입니다.
--   로컬 저장소(Local Repository): 내 PC에 파일이 저장되는 개인 전용 저장소입니다.
+- 원격 저장소(Remote Repository): 파일이 원격 저장소 전용 서버에서 관리되며 여러 사람이 함께 공유하기 위한 저장소입니다.
+- 로컬 저장소(Local Repository): 내 PC에 파일이 저장되는 개인 전용 저장소입니다.
 
 평소에는 내 PC의 로컬 저장소에서 작업하다가 작업한 내용을 공개하고 싶을 때에 원격 저장소에 업로드 합니다. 물론 원격 저장소에서 다른 사람이 작업한 파일을 로컬 저장소로 가져올 수도 있습니다.
 
@@ -55,7 +55,7 @@ Git은 원격 저장소와 로컬 저장소 두 종류의 저장소를 제공합
 
 내 컴퓨터에 로컬 저장소를 만드는 방법은 두 가지가 있습니다.
 
-첫 번째, 아예 저장소를 새로 만들gg거나, 두번째, 이미 만들어져 있는 원격 저장소를 로컬 저장소로 복사해 올 수 있습니다.
+첫 번째, 아예 저장소를 새로 만들거나, 두번째, 이미 만들어져 있는 원격 저장소를 로컬 저장소로 복사해 올 수 있습니다.
 
 ![저장소 만들기](https://backlog.com/git-tutorial/kr/img/post/intro/capture_intro1_2_3.png)
 
@@ -121,18 +121,14 @@ Git의 '커밋' 작업은 '작업 트리'에 있는 변경 내용을 저장소�
 
 개발자 분이나 콘솔 환경에 익숙한 분은 콘솔을 이용해 Git 에 도전해 보세요.
 
-사용 중인 컴퓨터의 환경을 선택하세요.  Mac  Windows  콘솔
-
-Windows
-
 ### Windows
 
-여기서는 오픈소스 Git 클라이언트 'TortoiseGit'과 그 언어팩까지 설치해 보겠습니다.  
+여기서는 오픈소스 Git 클라이언트 'TortoiseGit'과 그 언어팩까지 설치해 보겠습니다.
 [http://code.google.com/p/tortoisegit/](http://code.google.com/p/tortoisegit/)
 
 Tips
 
-TortoiseGit을 이용하려면, 먼저 msysgit를 설치해야 합니다. 아래 사이트에서 설치파일을 다운로드합니다.  
+TortoiseGit을 이용하려면, 먼저 msysgit를 설치해야 합니다. 아래 사이트에서 설치파일을 다운로드합니다.
 [http://msysgit.github.io/](http://msysgit.github.io/)
 
 그리고 아래 사이트에서 TortoiseGit 설치파일과 언어팩을 다운로드합니다. 32비트판과 64비트판을 구분하고 있으니 내 Windows 환경에 맞게 선택하세요.
@@ -167,7 +163,7 @@ Install을 클릭합니다.
 
 ![설치 완료](https://backlog.com/git-tutorial/kr/img/post/intro/capture_intro2_1_10_win.png)
 
-이어서 언어팩을 적용합니다.  
+이어서 언어팩을 적용합니다.
 Language Packs에서 Korean를 다운로드하고 더블 클릭해서 시작합니다. Next를 클릭합니다.
 
 ![Language Packs에서 Korean를 다운로드](https://backlog.com/git-tutorial/kr/img/post/intro/capture_intro2_1_11_win.png)
@@ -193,10 +189,6 @@ Language Packs에서 Korean를 다운로드하고 더블 클릭해서 시작합�
 ----
 
 ## [초기 설정](https://backlog.com/git-tutorial/kr/intro/intro2_2.html)
-
-사용 중인 컴퓨터의 환경을 선택하세요.  Mac  Windows  콘솔
-
-Windows
 
 설치한 Git에 본인의 사용자명과 메일 주소를 등록해주세요. 여기서 설정한 사용자 정보는 나중에 변경 이력 등에 표시됩니다.
 
@@ -240,14 +232,14 @@ tutorial 폴더 아이콘에 다음과 같이 초록색 체크 배지가 달리�
 
 ### Mac
 
-우선 tutorial 폴더를 아무데나 생성해주세요.  
+우선 tutorial 폴더를 아무데나 생성해주세요.
 그 후, Source Tree를 켭니다.
 
 즐겨찾기 목록 화면의 왼쪽 위에 있는 Add Repository 버튼을 클릭합니다. 또는 메뉴바에서 파일>신규를 선택해주세요.
 
 ![Source Tree를 켬](https://backlog.com/git-tutorial/kr/img/post/intro/capture_intro2_3_1_mac.png)
 
-저장소 생성 버튼을 클릭합니다.  
+저장소 생성 버튼을 클릭합니다.
 로컬 저장소로 설정하는 폴더와, Source Tree상에서 표시하는 이름을 즐겨찾기명으로 입력해 작성 버튼을 클릭하세요.
 
 여기에는 tutorial 폴더를 「tutorial」이라는 북마크명으로 등록했습니다.
@@ -262,14 +254,18 @@ tutorial 폴더 아이콘에 다음과 같이 초록색 체크 배지가 달리�
 
 우선 tutorial 폴더를 아무데나 생성해주세요. tutorial 폴더를 Git의 저장소로 등록하려면, 해당 폴더로 이동하여 init 명령어를 사용합니다.
 
+```bash
 $ git init
+```
 
 여기서는, 새롭게 만든 tutorial 폴더를 Git 저장소로 설정했습니다.
 
-$ **mkdir tutorial**
-$ **cd tutorial**
-$ **git init**
+```bash
+$ mkdir tutorial
+$ cd tutorial
+$ git init
 Initialized empty Git repository in /Users/yourname/Desktop/tutorial/.git/
+```
 
 이제 지금 만든 저장소에 파일을 커밋해보자!
 
@@ -281,18 +277,22 @@ tutorial 폴더에 새로운 파일을 추가하고, 원격 저장소에 파일�
 
 우선 tutorial 폴더 안에 「sample.txt」라는 이름으로 텍스트 파일을 만드세요. 파일 내용에는 적당히 아래 텍스트를 입력하시면 됩니다.
 
-**원숭이도 이해할 수 있는 Git 명령어**
+```txt
+원숭이도 이해할 수 있는 Git 명령어
+```
 
 ### 콘솔
 
 Git의 관리 하에 있는 폴더의 작업트리와 인덱스 상태를 확인하려면, status 명령어를 사용합니다.
 
-```
+```bash
 $ git status
+```
 
 status 명령어를 실행해 tutorial 폴더 상태를 확인합니다.
 
-$ **git status**
+```bash
+$ git status
 ## On branch master
 #
 ## Initial commit
@@ -308,7 +308,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 파일을 인덱스에 등록하는 명령어는 add 입니다. 뒤에 <file>을 붙여 인덱스에 등록할 파일을 지정합니다. 한칸 띄어쓰기해서 여러개 파일을 한번에 지정할수도 있습니다.
 
-```
+```bash
 $ git add <file>..
 ```
 
@@ -316,15 +316,15 @@ Tips
 
 파라미터에 「.」를 지정하면, 모든 파일을 인덱스에 등록할 수 있습니다.
 
-```
+```bash
 $ git add .
 ```
 
 그럼 sample.txt를 인덱스에 추가하여 확인해보겠습니다.
 
-```
-$ **git add sample.txt**
-$ **git status**
+```bash
+$ git add sample.txt
+$ git status
 ## On branch master
 #
 ## Initial commit
@@ -338,19 +338,19 @@ $ **git status**
 
 인덱스에 sample.txt가 추가되었으니 커밋 준비는 끝입니다. 이제 commit 명령어를 실행해 커밋을 진행합니다. commit 명령어 포맷은 다음과 같습니다.
 
-```
+```bash
 $ git commit -m "<댓글>"
 ```
 
 commit 명령어를 실행한 후 상태를 확인합니다.
 
-```
-$ **git commit -m "first commit"**
+```bash
+$ git commit -m "first commit"
 [master (root-commit) 116a286] first commit
  0 files changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 sample.txt
 
-$ **git status**
+$ git status
 ## On branch master
 nothing to commit (working directory clean)
 ```
@@ -359,8 +359,8 @@ nothing to commit (working directory clean)
 
 저장소의 변경 이력을 확인해봅시다. 저장소 변경 이력을 보려면, log 명령어를 사용하세요.
 
-```
-$ **git log**
+```bash
+$ git log
 commit ac56e474afbbe1eab9ebce5b3ab48ac4c73ad60e
 Author: eguchi <eguchi@nulab.co.jp>
 Date:   Thu Jul 12 18:00:21 2012 +0900
@@ -372,8 +372,8 @@ Note
 
 git를 설치할 때 gitk라는 툴도 동시에 설치됩니다. 이걸 사용하면 변경 이력을 GUI에서 확인할 수 있습니다.
 
-```
-$ **gitk** 
+```bash
+$ gitk
 ```
 
 ![gitk ](https://backlog.com/git-tutorial/kr/img/post/intro/capture_intro2_4_1_cui.png)
@@ -470,10 +470,6 @@ Git 기능을 활성화 한 후, 동일한 Git의 설정 화면에서 「저장�
 
 「튜토리얼 Git의 기본」에서 만든 로컬 저장소 「tutorial」를 push 해보세요.
 
-사용 중인 컴퓨터의 환경을 선택하세요.  Mac  Windows  콘솔
-
-콘솔
-
 ### 콘솔
 
 원격 저장소에 로컬 저장소의 이력을 push합시다.
@@ -488,7 +484,7 @@ $ git remote add <name> <url>
 
 ![원격 저장소의 URL을 origin이라는 이름으로 등록](https://backlog.com/git-tutorial/kr/img/post/intro/capture_intro4_2_1_cui.png)
 
-$ **git remote add origin _https://[your_space_id].backlogtool.com/git/[your_project_key]/tutorial.git_**
+$ git remote add origin _https://[your_space_id].backlogtool.com/git/[your_project_key]/tutorial.git_
 
 Tips
 
@@ -502,14 +498,16 @@ $ git push <repository> <refspec>...
 
 도중에 사용자명과 비밀번호가 요구되면 Backlog의 사용자명과 비밀번호를 입력하십시오.
 
-$ **git push -u origin master**
-Username: **<사용자명>**
-Password: **<비밀번호>**
+```bash
+$ git push -u origin master
+Username: <사용자명>
+Password: <비밀번호>
 Counting objects: 3, done.
 Writing objects: 100% (3/3), 245 bytes, done.
 Total 3 (delta 0), reused 0 (delta 0)
 To https://monkey.backlogtool.com/git/BLG/tutorial.git
  * [new branch]      master -> master
+```
 
 Backlog의 Git 페이지를 열어보세요. 최근 업데이트에 push 항목이 추가되어 있습니다.
 
@@ -527,27 +525,27 @@ Backlog의 Git 페이지를 열어보세요. 최근 업데이트에 push 항목�
 
 원격 저장소를 복제하여 다른 곳에서도 작업을 할 수 만들어 봅시다.
 
-사용 중인 컴퓨터의 환경을 선택하세요.  Mac  Windows  콘솔
-
-콘솔
-
 내가 다른 사용자가 됐다고 가정하고 아까 Push했던 원격 저장소의 파일을 내PC의 "튜토리얼2"라는 새폴더로 복사해 오겠습니다.
 
 ### 콘솔
 
 저장소를 복제하려면 clone 명령어를 이용합니다. <repository>는 원격 저장소의 URL, <directory>는 복제대상의 폴더명을 지정합니다.
 
+```bash
 $ git clone <repository> <directory>
+```
 
 아래 명령을 실행하면, 현재 폴더에 tutorial2라는 이름의 폴더명에 원격 저장소가 복제됩니다.
 
-$ **git clone _https://monkey.backlogtool.com/git/BLG/tutorial.git_ tutorial2**
+```bash
+$ git clone _https://monkey.backlogtool.com/git/BLG/tutorial.git_ tutorial2
 Cloning into 'tutorial2'...
-Username: **<사용자명>**
-Password: **<비밀번호>**
+Username: <사용자명>
+Password: <비밀번호>
 remote: Counting objects: 3, done.
 remote: Total 3 (delta 0), reused 0 (delta 0)
 Unpacking objects: 100% (3/3), done.
+```
 
 복제한 저장소 「tutorial」 안에, 아까 push했던 sample.txt가 존재하는지 확인해주세요.
 
@@ -559,31 +557,32 @@ Unpacking objects: 100% (3/3), done.
 
 이번에는 복제한 로컬 저장소에서 다시 원격 저장소로 파일을 푸시(push) 해 봅시다.
 
-사용 중인 컴퓨터의 환경을 선택하세요.  Mac  Windows  콘솔
-
-콘솔
-
 ### 콘솔
 
-tutorial2에서의 작업  
+tutorial2에서의 작업
 우선 이전 페이지에서 복제한 저장소의 폴더에 있는 sample.txt파일을 열어 아래 굵은글자 부분의 내용을 추가하고 커밋합니다.
 
+```txt
 원숭이도 이해할 수 있는 Git 명령어
-**add 변경사항을 인덱스에 등록하기**
+add 변경사항을 인덱스에 등록하기
+```
 
-$ **git add sample.txt**
-$ **git commit -m "add 설명을 추가함"**
+```bash
+$ git add sample.txt
+$ git commit -m "add 설명을 추가함"
 [master 1ef5c8c] add 설명을 추가함
  1 files changed, 1 insertions(+), 1 deletions(-)
+```
 
-tutorial2에서의 작업  
+tutorial2에서의 작업
 이제 이 변경내역을 push 하여 원격 저장소를 업데이트합니다.
 
 복제한 저장소에서 push 할 때는 파라미터 origin master를 생략할 수 있습니다.
 
-$ **git push**
-Username: **<사용자명>**
-Password: **<비밀번호>**
+```bash
+$ git push
+Username: <사용자명>
+Password: <비밀번호>
 Counting objects: 5, done.
 Delta compression using up to 4 threads.
 Compressing objects: 100% (2/2), done.
@@ -591,6 +590,7 @@ Writing objects: 100% (3/3), 351 bytes, done.
 Total 3 (delta 0), reused 0 (delta 0)
 To https://monkey.backlogtool.com/git/BLG/tutorial.git
    486789c..1ef5c8c  master -> master
+```
 
 Backlog의 Git 페이지를 열어주십시오. 최근 변경내역에 방금 push 한 커밋이 추가되어 있을 겁니다.
 
@@ -608,27 +608,34 @@ Backlog의 Git 페이지를 열어주십시오. 최근 변경내역에 방금 pu
 
 풀을 수행하려면 pull 명령어를 사용합니다. 만약 저장소명이 생략되면 origin의 이름으로 등록되어 있는 저장소 밑에 pull을 수행하게 됩니다.
 
+```bash
 $ git pull <repository> <refspec>...
+```
 
-tutorial에서의 작업  
+> tutorial에서의 작업
+
 다음 명령어를 실행하십시오.
 
-$ **git pull origin master**
-Username: **<사용자명>**
-Password: **<비밀번호>**
+```bash
+$ git pull origin master
+Username: <사용자명>
+Password: <비밀번호>
 From https://monkey.backlogtool.com/git/BLG/tutorial
  * branch            master     -> FETCH_HEAD
 Updating ac56e47..3da09c1
 Fast-forward
- sample.txt |    1 +
+ sample.txt |    1
  1 files changed, 1 insertions(+), 0 deletions(-)
+```
 
 sample.txt 파일의 내용이 업데이트되었습니다.
 
-tutorial에서의 작업  
+> tutorial에서의 작업
+
 log 명령어로 이력을 확인 해 봅시다.
 
-$ **git log**
+```bash
+$ git log
 commit 3da09c1134a41f2bee854a413916e4ebcae7318d
 Author: eguchi <eguchi@nulab.co.jp>
 Date:   Thu Jul 12 18:02:45 2012 +0900
@@ -640,14 +647,18 @@ Author: eguchi <eguchi@nulab.co.jp>
 Date:   Thu Jul 12 18:00:21 2012 +0900
 
     first commit
+```
 
 「tutorial2」에서 변경 한 이력의「add 설명 추가함」가 추가 되었습니다.
 
-tutorial에서의 작업  
+> tutorial에서의 작업
+
 sample.txt 파일을 열고 내용을 확인해봅시다.
 
+```txt
 원숭이도 이해할 수 있는 Git 명령어
 add 변경사항을 인덱스에 등록하기
+```
 
 「add 변경사항을 인덱스에 등록하기」가 추가되어 있습니다.
 
@@ -681,7 +692,7 @@ Git 은 충돌이 발생한 파일 내용을 아래 그림처럼 표시합니다
 
 ![충돌 발생의 예](https://backlog.com/git-tutorial/kr/img/post/intro/capture_intro5_1_3.png)
 
-===== 로 구분된 윗 부분이 로컬 저장소,  
+===== 로 구분된 윗 부분이 로컬 저장소,
 아랫 부분이 원격 저장소의 변경 내용이라는 점!
 
 다음 그림과 같이 모든 충돌 부분을 수정한 후에, 다시 커밋을 수행하면 됩니다.
@@ -696,42 +707,48 @@ Git 은 충돌이 발생한 파일 내용을 아래 그림처럼 표시합니다
 
 우선은 「tutorial」과 「tutorial2」를 사용하여 충돌 상태를 만들어봅시다.
 
-사용 중인 컴퓨터의 환경을 선택하세요.  Mac  Windows  콘솔
-
-콘솔
-
 ### 콘솔
 
-tutorial에서의 작업  
+> tutorial에서의 작업
+
 우선은 tutorial 폴더의 sample.txt를 열고, 다음과 같은 내용으로 수정하고 나서 커밋하십시오.
 
+```txt
 원숭이도 이해할 수 있는 Git 명령어
 add 변경사항을 인덱스에 등록하기
-**commit 인덱스의 상태를 기록하기**
+commit 인덱스의 상태를 기록하기
+```
 
-$ **git add sample.txt**
-$ **git commit -m "commit의 설명 추가"**
+```bash
+$ git add sample.txt
+$ git commit -m "commit의 설명 추가"
 [master 95f15c9] commit의 설명 추가
  1 files changed, 1 insertions(+), 0 deletions(-)
+```
 
-tutorial2에서의 작업  
+tutorial2에서의 작업
 그 다음, tutorial2 폴더의 sample.txt를 열고 이번엔 조금 다르게 아래 내용으로 수정하고 나서 커밋하십시오.
 
+```txt
 원숭이도 이해할 수 있는 Git 명령어
 add 변경사항을 인덱스에 등록하기
-**pull 원격 저장소의 내용을 가져오기**
+pull 원격 저장소의 내용을 가져오기
+```
 
-$ **git add sample.txt**
-$ **git commit -m "pull 설명을 추가"**
+```bash
+$ git add sample.txt
+$ git commit -m "pull 설명을 추가"
 [master 4c01823] pull 설명을 추가
  1 files changed, 1 insertions(+), 0 deletions(-)
+```
 
-tutorial2에서의 작업  
+tutorial2에서의 작업
 그 상태로 tutorial2에서 원격 저장소로 push합시다.
 
-$ **git push**
-Username: **<사용자명>**
-Password: **<비밀번호>**
+```bash
+$ git push
+Username: <사용자명>
+Password: <비밀번호>
 Counting objects: 5, done.
 Delta compression using up to 4 threads.
 Compressing objects: 100% (2/2), done.
@@ -739,21 +756,25 @@ Writing objects: 100% (3/3), 391 bytes, done.
 Total 3 (delta 0), reused 0 (delta 0)
 To https://monkey.backlogtool.com/git/BLG/tutorial.git
    3da09c1..4c01823  master -> master
+```
 
 지금 원격 저장소 sample.txt파일 메시지 세 번째 행엔 "pull 원격 저장소의 내용을 취득함"이란 변경 이력이 기록되어 있다고!
 
-tutorial에서의 작업  
+> tutorial에서의 작업
+
 이번에는 tutorial에서 원격 저장소로 push합시다.
 
-$ **git push**
-Username: **<사용자명>**
-Password: **<비밀번호>**
+```bash
+$ git push
+Username: <사용자명>
+Password: <비밀번호>
 To https://monkey.backlogtool.com/git/BLG/tutorial.git
  ! [rejected]        master -> master (non-fast-forward)
 error: failed to push some refs to 'https://monkey.backlogtool.com/git/BLG/tutorial.git'
 To prevent you from losing history, non-fast-forward updates were rejected
 Merge the remote changes (e.g. 'git pull') before pushing again.  See the
 'Note about fast-forwards' section of 'git push --help' for details.
+```
 
 오류가 발생하여 push 를 거부(rejected)당했습니다.
 
@@ -765,12 +786,14 @@ Merge the remote changes (e.g. 'git pull') before pushing again.  See the
 
 ### 콘솔
 
-tutorial에서의 작업  
+> tutorial에서의 작업
+
 다음 명령어를 실행하십시오.
 
-$ **git pull origin master**
-Username: **<사용자 이름>**
-Password: **<비밀번호>**
+```bash
+$ git pull origin master
+Username: <사용자 이름>
+Password: <비밀번호>
 remote: Counting objects: 5, done.
 remote: Compressing objects: 100% (2/2), done.
 remote: Total 3 (delta 0), reused 0 (delta 0)
@@ -780,45 +803,57 @@ From https://monkey.backlogtool.com/git/BLG/tutorial
 Auto-merging sample.txt
 CONFLICT (content): Merge conflict in sample.txt
 Automatic merge failed; fix conflicts and then commit the result.
+```
 
 Merge 하던 중에 충돌이 발생했다는 것을 나타내는 메시지가 표시되었습니다.
 
-tutorial에서의 작업  
-「Merge conflict in sample.txt」라고 표시되어 있으므로 sample.txt 파일을 열어서 확인해봅니다.  
+> tutorial에서의 작업
+
+「Merge conflict in sample.txt」라고 표시되어 있으므로 sample.txt 파일을 열어서 확인해봅니다.
 Git이 자동으로 병합되지 않은 부분을 다음과 같이 변경했습니다.
 
+```txt
 원숭이도 이해할 수 있는 Git 명령어
 add 변경 사항을 인덱스에 등록하기
-**<<<<<<< HEAD
+<<<<<<< HEAD
 commit 인덱스의 상태를 기록하기
 =======
 pull 원격 저장소의 내용을 가져오기
->>>>>>> 4c0182374230cd6eaa93b30049ef2386264fe12a**
+>>>>>>> 4c0182374230cd6eaa93b30049ef2386264fe12a
+```
 
-tutorial에서의 작업
+> tutorial에서의 작업
+
 
 ![수정하세요](https://backlog.com/git-tutorial/kr/img/post/img_modified_mascot.png)
 
 여기에서는 양쪽 변경사항을 둘다 넣기로 하고, 불필요한 행은 삭제합니다
 
+```txt
 원숭이도 이해할 수 있는 Git 명령어
 add 변경 사항을 인덱스에 등록하기
-**commit 인덱스의 상태를 기록하기
-pull 원격 저장소의 내용을 가져오기**
+commit 인덱스의 상태를 기록하기
+pull 원격 저장소의 내용을 가져오기
+```
 
-tutorial에서의 작업  
+> tutorial에서의 작업
+
 파일 내용에 변경사항이 생겼으니 다시 커밋해야겠죠.
 
-$ **git add sample.txt**
-$ **git commit -m "병합"**
+```bash
+$ git add sample.txt
+$ git commit -m "병합"
 [master d845b81] 병합
+```
 
 이로써 원격 저장소에서 최신 변경 내용 가져오기가 완료되었습니다.
 
-tutorial에서의 작업  
+> tutorial에서의 작업
+
 log 명령어로 이력을 확인 해 봅시다. 'graph' 를 지정하면 선으로 된 그림 형태로 이력 흐름이 표시됩니다. 'oneline'을 선택하면 한 줄로 커밋 정보가 표시됩니다.
 
-$ **git log --graph --oneline**
+```bash
+$ git log --graph --oneline
 *   d845b81 병합
 |\
 | * 4c01823 pull 설명을 추가
@@ -826,6 +861,7 @@ $ **git log --graph --oneline**
 |/
 * 3da09c1 add 설명을 추가
 * ac56e47 first commit
+```
 
 이 표시로 두 가지 변경 사항이 통합됐음을 알 수 있습니다.
 
@@ -1010,16 +1046,16 @@ Note
 
 merge 와 rebase 는 통합 브랜치에 토픽 브랜치를 통합하고자 하는 목적은 같으나, 그 특징은 약간 다릅니다.
 
--   **merge**  
+- merge
     변경 내용의 이력이 모두 그대로 남아 있기 때문에 이력이 복잡해짐.
--   **rebase**  
+- rebase
     이력은 단순해지지만, 원래의 커밋 이력이 변경됨. 정확한 이력을 남겨야 할 필요가 있을 경우에는 사용하면 안됨.
 
-merge 와 rebase 는 팀 운용 방침에 따라 구별해 쓸 수 있습니다.  
+merge 와 rebase 는 팀 운용 방침에 따라 구별해 쓸 수 있습니다.
 예를 들어 이력을 하나로 모두 모아서 처리하도록 운용한다고 치면 아래와 같이 구별해 사용할 수 있습니다.
 
--   토픽 브랜치에 통합 브랜치의 최신 코드를 적용할 경우에는 rebase 를 사용,
--   통합 브랜치에 토픽 브랜치를 불러올 경우에는 우선 rebase 를 한 후 merge
+- 토픽 브랜치에 통합 브랜치의 최신 코드를 적용할 경우에는 rebase 를 사용,
+- 통합 브랜치에 토픽 브랜치를 불러올 경우에는 우선 rebase 를 한 후 merge
 
 ----
 
@@ -1057,15 +1093,15 @@ merge 와 rebase 는 팀 운용 방침에 따라 구별해 쓸 수 있습니다.
 
 Git의 브랜치 운용 모델로서, "A successful Git branching model" 이란 컬럼을 소개합니다.
 
-원문:  
+원문:
 [http://nvie.com/posts/a-successful-git-branching-model/](http://nvie.com/posts/a-successful-git-branching-model/)
 
 이 운용 모델에서는 크게 나눠 4가지 종류의 브랜치를 이용하여 개발을 진행합니다.
 
--   **메인 브랜치(Main branch)**
--   **피처 브랜치(Feature branch) 또는 토픽 브랜치(Topic branch)**
--   **릴리스 브랜치(Release branch)**
--   **핫픽스 브랜치(Hotfix branch)**
+- 메인 브랜치(Main branch)
+- 피처 브랜치(Feature branch) 또는 토픽 브랜치(Topic branch)
+- 릴리스 브랜치(Release branch)
+- 핫픽스 브랜치(Hotfix branch)
 
 ![Git의 브랜치 운용 모델](https://backlog.com/git-tutorial/kr/img/post/stepup/capture_stepup1_5_6.png)
 
@@ -1073,9 +1109,9 @@ Git의 브랜치 운용 모델로서, "A successful Git branching model" 이란 
 
 'master' 브랜치와 'develop' 브랜치, 이 두 종류의 브랜치를 보통 메인 브랜치로 사용합니다.
 
--   **master**  
+- master
     'master' 브랜치에서는, 배포 가능한 상태만을 관리합니다. 커밋할 때에는 태그를 사용하여 배포 번호를 기록합니다.
--   **develop**  
+- develop
     'develop' 브랜치는 앞서 설명한 통합 브랜치의 역할을 하며, 평소에는 이 브랜치를 기반으로 개발을 진행합니다.
 
 ### 피처 브랜치(Feature branch)
@@ -1110,22 +1146,24 @@ Git의 브랜치 운용 모델로서, "A successful Git branching model" 이란 
 
 아래 코드를 이용하여 tutorial 이라는 이름으로 새 폴더를 만들고 Git 저장소로 지정해 봅시다.
 
-```
-$ **mkdir tutorial**
-$ **cd tutorial**
-$ **git init**
+```bash
+$ mkdir tutorial
+$ cd tutorial
+$ git init
 Initialized empty Git repository in /Users/eguchi/Desktop/tutorial/.git/
 ```
 
 tutorial 폴더에 myfile.txt 이라는 이름으로 파일을 만든 후 커밋합니다.
 
-**원숭이도 이해할 수 있는 Git 명령어**
+```txt
+원숭이도 이해할 수 있는 Git 명령어
 
-$ **git add myfile.txt**
-$ **git commit -m "first commit"**
+$ git add myfile.txt
+$ git commit -m "first commit"
 [master (root-commit) a73ae49] first commit
  1 files changed, 1 insertions(+), 0 deletions(-)
  create mode 100644 myfile.txt
+```
 
 여기까지 진행했다면, 아래 그림과 같은 이력이 남게 됩니다.
 
@@ -1139,17 +1177,23 @@ $ **git commit -m "first commit"**
 
 브랜치는 branch 란 명령어로 만들 수 있습니다.
 
+```bash
 $ git branch <branchname>
+```
 
 'issue1' 이라는 이름으로 브랜치를 만들어 봅시다.
 
-$ **git branch issue1**
+```bash
+$ git branch issue1
+```
 
 옵션을 지정하지 않고 branch 명령어를 실행하면 브랜치 목록 전체를 확인할 수 있습니다. 앞 부분에 * 이 붙어있는 것이 현재 선택된 브랜치입니다.
 
-$ **git branch**
+```bash
+$ git branch
   issue1
 * master
+```
 
 이 시점까지의 이력을 보면 다음과 같습니다.
 
@@ -1163,12 +1207,16 @@ $ **git branch**
 
 다음과 같이checkout 명령어 뒤에 사용할 브랜치 이름을 입력하면 됩니다.
 
+```bash
 $ git checkout <branch>
+```
 
 아래와 같이 입력하여 'issue1' 브랜치를 체크아웃 해 봅시다.
 
-$ **git checkout issue1**
+```bash
+$ git checkout issue1
 Switched to branch 'issue1'
+```
 
 이 시점까지의 이력을 보면 아래와 같습니다.
 
@@ -1178,17 +1226,21 @@ Note
 
 checkout 명령에 -b 옵션을 넣으면 브랜치 작성과 체크아웃을 한꺼번에 실행할 수 있습니다.
 
+```bash
 $ git checkout -b <branch>
+```
 
 'issue1' 브랜치를 체크아웃한 상태에서 커밋을 수행하면, 'issue1' 브랜치에 그 이력이 기록됩니다. mylife.txt 에 아래 박스에서와 같이 문장을 추가한 후에 커밋해봅시다.
 
+```txt
 원숭이도 이해할 수 있는 Git 명령어
-**add: 변경 사항을 만들어서 인덱스에 등록해보기**
+add: 변경 사항을 만들어서 인덱스에 등록해보기
 
-$ **git add myfile.txt**
-$ **git commit -m "add 설명을 추가"**
+$ git add myfile.txt
+$ git commit -m "add 설명을 추가"
 [issue1 b2b23c4] add 설명을 추가
  1 files changed, 1 insertions(+), 0 deletions(-)
+```
 
 위와 같이 commit 명령어에 -m 옵션을 넣으면 커밋 설명을 포함시킬 수 있습니다.
 
@@ -1206,26 +1258,34 @@ $ **git commit -m "add 설명을 추가"**
 
 브랜치 병합은 merge 명령어로 실행합니다. 이 명령어에 병합할 커밋 이름을 넣어 실행하면, 지정한 커밋 내용이 'HEAD'가 가리키고 있는 브랜치에 넣어집니다. 'HEAD'는 현재 사용중인 브랜치에 위치하게 됩니다. 위 그림에서는 'issue1' 커밋에 'HEAD'가 위치하고 있습니다.
 
+```bash
 $ git merge <commit>
+```
 
 'master' 브랜치에 'issue1'를 넣기 위해서는 우선 'master' 브랜치에 'HEAD'가 위치하게 만들어야 합니다. 이 때에는 checkout 명령어를 이용하여 현재 사용중인 브랜치를 'master'로 전환합니다.
 
-$ **git checkout master**
+```bash
+$ git checkout master
 Switched to branch 'master'
+```
 
 병합하기 전에 myfile.txt 파일을 열어 내용을 확인합니다.
 
+```txt
 원숭이도 이해할 수 있는 Git 명령어
+```
 
 이번 실습에서의 파일 편집은 'issue1' 브랜치에서 실행 했기 때문에 'master' 브랜치로 브랜치를 전환한 지금, myfile.txt 파일을 확인했을 때 그 내용이 변경되어 있지 않아야 합니다.
 
 그럼 이제 병합을 시작해볼까요?
 
-$ **git merge issue1**
+```bash
+$ git merge issue1
 Updating 1257027..b2b23c4
 Fast-forward
- myfile.txt |    1 +
+ myfile.txt |    1
  1 files changed, 1 insertions(+), 0 deletions(-)
+```
 
 이제 'master' 브랜치가 가리키는 커밋이 'issue1'과 같은 위치로 이동했습니다. 이런 방식의 병합을 'fast-forward (빨리감기) 병합'이라고 합니다.
 
@@ -1233,8 +1293,10 @@ Fast-forward
 
 myfile.txt 파일을 열어 내용을 확인해 봅시다.
 
+```txt
 원숭이도 이해할 수 있는 Git 명령어
-**add: 변경 사항을 만들어서 인덱스에 등록해보기**
+add: 변경 사항을 만들어서 인덱스에 등록해보기
+```
 
 「add: 변경 사항을 만들어서 인덱스에 등록해보기」 내용이 추가되어 있는 것을 확인합니다.
 
@@ -1246,17 +1308,23 @@ myfile.txt 파일을 열어 내용을 확인해 봅시다.
 
 브랜치를 삭제하려면 branch 명령에 -d 옵션을 지정하여 실행하면 됩니다.
 
+```bash
 $ git branch -d <branchname>
+```
 
 'issue1' 브랜치를 삭제하려면, 다음 명령어를 실행합니다.
 
-$ **git branch -d issue1**
+```bash
+$ git branch -d issue1
 Deleted branch issue1 (was b2b23c4).
+```
 
 이제 'issue1' 브랜치는 삭제되었습니다. 정말로 브랜치가 잘 삭제 되었는지 branch 명령어를 이용해서 확인합니다. 아래와 같이 'master' 브랜치만 목록에 남아 있게 됩니다.
 
-$ **git branch**
+```bash
+$ git branch
 * master
+```
 
 ![현재 시점의 이력](https://backlog.com/git-tutorial/kr/img/post/stepup/capture_stepup2_5_1.png)
 
@@ -1268,47 +1336,55 @@ $ **git branch**
 
 'issue2' 와 'issue3' 브랜치를 만든 후, 'issue2' 브랜치로 전환 합니다.
 
-$ **git branch issue2**
-$ **git branch issue3**
-$ **git checkout issue2**
+```bash
+$ git branch issue2
+$ git branch issue3
+$ git checkout issue2
 Switched to branch 'issue2'
-$ **git branch**
+$ git branch
 * issue2
   issue3
   master
+```
 
 ![현재 시점의 이력](https://backlog.com/git-tutorial/kr/img/post/stepup/capture_stepup2_6_1.png)
 
 'issue2' 브랜치의 myfile.txt 에 아래와 같이 commit 에 대한 설명을 추가하여 커밋해 보도록 하겠습니다.
 
+```txt
 원숭이도 이해할 수 있는 Git 명령어
 add: 변경 사항을 만들어서 인덱스에 등록해보기
-**commit: 인덱스 상태를 기록하기** 
+commit: 인덱스 상태를 기록하기
 
-$ **git add myfile.txt**
-$ **git commit -m "commit의 설명 추가"**
+$ git add myfile.txt
+$ git commit -m "commit의 설명 추가"
 [issue2 8f7aa27] commit의 설명 추가
  1 files changed, 2 insertions(+), 0 deletions(-)
+```
 
 ![현재 시점의 이력](https://backlog.com/git-tutorial/kr/img/post/stepup/capture_stepup2_6_2.png)
 
 이번에는 'issue3' 브랜치로 전환 합니다.
 
-$ **git checkout issue3**
+```bash
+$ git checkout issue3
 Switched to branch 'issue3'
+```
 
 myfile.txt 파일을 열어 내용을 확인합니다. commit 명령의 설명은 'issue2' 브랜치에서 추가했기 때문에, 'issue3' 브랜치로 전환한 후의 myfile.txt 파일에는 add 명령의 설명 밖에 없습니다.
 
 이번에는 pull 명령어의 설명을 추가하여 변경 사항을 커밋해 보도록 하겠습니다.
 
+```txt
 원숭이도 이해할 수 있는 Git 명령어
 add: 변경 사항을 만들어서 인덱스에 등록해보기
-**pull: 원격 저장소의 내용을 가져오기** 
+pull: 원격 저장소의 내용을 가져오기
 
-$ **git add myfile.txt**
-$ **git commit -m "pull 설명을 추가"**
+$ git add myfile.txt
+$ git commit -m "pull 설명을 추가"
 [issue3 e5f91ac] pull 설명을 추가
  1 files changed, 2 insertions(+), 0 deletions(-)
+```
 
 ![현재 시점의 이력](https://backlog.com/git-tutorial/kr/img/post/stepup/capture_stepup2_6_3.png)
 
@@ -1324,13 +1400,15 @@ $ **git commit -m "pull 설명을 추가"**
 
 먼저 'master' 브랜치를 체크아웃한 다음 'issue2' 브랜치를 병합합니다.
 
-$ **git checkout master**
+```bash
+$ git checkout master
 Switched to branch 'master'
-$ **git merge issue2**
+$ git merge issue2
 Updating b2b23c4..8f7aa27
 Fast-forward
  myfile.txt |    2 ++
  1 files changed, 2 insertions(+), 0 deletions(-)
+```
 
 이렇게 하면 앞서 설명되었던 'fast-forward(빨리감기) 병합'이 실행됩니다. 아래 그림을 보면, 'master' 브랜치에 'issue2' 브랜치가 병합된 것을 확인할 수 있습니다.
 
@@ -1338,13 +1416,16 @@ Fast-forward
 
 이번에는 'issue3' 브랜치를 병합합니다.
 
-$ **git merge issue3**
+```bash
+$ git merge issue3
 Auto-merging myfile.txt
 CONFLICT (content): Merge conflict in myfile.txt
 Automatic merge failed; fix conflicts and then commit the result.
+```
 
 'CONFLICT(충돌)'이라 나오는 것을 보니 자동 병합에 실패한 것 같습니다. 앞서 각각의 브랜치에서 변경한 내용이 myfile.txt 의 같은 행에 포함되어 있기 때문입니다. 실제로 myfile.txt 의 내용을 확인해 보면 다음과 같이 변경되어 있습니다.
 
+```txt
 원숭이도 이해할 수 있는 Git 명령어
 add: 변경 사항을 만들어서 인덱스에 등록해보기
 <<<<<<< HEAD
@@ -1352,22 +1433,27 @@ commit: 인덱스의 상태를 기록하기
 =======
 pull: 원격 저장소의 내용을 가져오기
 >>>>>>> issue3
+```
 
 ![수정하세요](https://backlog.com/git-tutorial/kr/img/post/img_modified_mascot.png)
 
 충돌이 있는 부분에 Git 이 자동으로 위와 같이 충돌 정보를 포함하여 파일 내용을 변경합니다. 이 내용을 통해 어떤 브랜치에서 어떤 부분이 충돌되었는지 확인할 수 있습니다. 충돌이 일어난 부분은 이렇게 일일이 확인해서 수정해 주어야 합니다. 그럼 아래와 같이 파일 내용을 변경해 봅시다.
 
+```txt
 원숭이도 이해할 수 있는 Git 명령어
 add: 변경 사항을 만들어서 인덱스에 등록해보기
-**commit: 인덱스의 상태를 기록하기
-pull: 원격 저장소의 내용을 가져오기**
+commit: 인덱스의 상태를 기록하기
+pull: 원격 저장소의 내용을 가져오기
+```
 
 충돌 부분을 모두 수정했으므로, 다시 커밋합니다.
 
-$ **git add myfile.txt**
-$ **git commit -m "issue3 브랜치 병합"**
+```bash
+$ git add myfile.txt
+$ git commit -m "issue3 브랜치 병합"
 ## On branch master
 nothing to commit (working directory clean)
+```
 
 이 시점까지의 이력을 보면 다음과 같습니다. 이번 병합은 충돌 부분을 수정했기 때문에 그 변화를 기록하는 병합 커밋이 새로 생성 되었습니다. 그리고 'master' 브랜치의 시작('HEAD')이 그 위치로 이동해 있는 것을 확인할 수 있습니다. 아래와 같은 방식을 'non fast-forward 병합'이라고 합니다.
 
@@ -1381,15 +1467,18 @@ nothing to commit (working directory clean)
 
 'issue3' 브랜치를 병합 할 때에 rebase 를 먼저 실행한 후 병합을 시도한다면 그 이력을 하나의 줄기로 만들 수도 있습니다. 이번에는 이와 같은 경우를 만들어 보도록 하겠습니다. 이를 위해 일단 이전의 튜토리얼에서 마지막으로 진행했던 병합 명령을 취소합니다.
 
-$ **git reset --hard HEAD~**
+```bash
+$ git reset --hard HEAD~
+```
 
 ![rebase전의 기록 ](https://backlog.com/git-tutorial/kr/img/post/stepup/capture_stepup2_8_1_1.png)
 
 이제 'issue3' 브랜치로 전환하여 'master' 브랜치에 rebase 를 실행합니다.
 
-$ **git checkout issue3**
+```bash
+$ git checkout issue3
 Switched to branch 'issue3'
-$ **git rebase master**
+$ git rebase master
 First, rewinding head to replay your work on top of it...
 Applying: pull 설명을 추가
 Using index info to reconstruct a base tree...
@@ -1405,9 +1494,11 @@ Patch failed at 0001 pull 설명을 추가
 When you have resolved this problem run "git rebase --continue".
 If you would prefer to skip this patch, instead run "git rebase --skip".
 To check out the original branch and stop rebasing run "git rebase --abort".
+```
 
 merge 때와 마찬가지로 myfile.txt 파일 내용에 충돌이 있기 때문에 그 부분을 이전의 튜토리얼에서와 동일하게 처리합니다. 충돌난 파일 내용을 적절히 변경해 주세요.
 
+```txt
 원숭이도 이해할 수 있는 Git 명령어
 add: 변경 사항을 만들어서 인덱스에 등록해보기
 <<<<<<< HEAD
@@ -1415,11 +1506,15 @@ commit: 인덱스의 상태를 기록하기
 =======
 pull: 원격 저장소의 내용을 가져오기
 >>>>>>> issue3
+```
 
 rebase 의 경우 충돌 부분을 수정 한 후에는 commit 이 아니라 rebase 명령에 --continue 옵션을 지정하여 실행해야 합니다.
 
-$ **git add myfile.txt**
-$ **git rebase --continue**
+```bash
+$ git add myfile.txt
+$ git rebase --continue
+```
+
 Applying: pull 설명을 추가
 
 만약 rebase 자체를 취소하려면 --abort 옵션을 지정하면 됩니다.
@@ -1428,13 +1523,15 @@ Applying: pull 설명을 추가
 
 이전 튜토리얼에서 merge 명령어를 사용했을 때와 같이, rebase 만 실행한 경우에는 위의 그림처럼 'issue3' 브랜치가 두 브랜치의 앞 쪽으로 위치가 옮겨졌을 뿐 'master' 브랜치는 아직 'issue3'의 변경 사항이 적용되지 못한 상태로 뒤에 남겨져 있습니다. 이제 'master' 브랜치로 전환 하여 'issue3' 브랜치의 변경 사항을 모두 병합할 차례입니다.
 
-$ **git checkout master**
+```bash
+$ git checkout master
 Switched to branch 'master'
-$ **git merge issue3**
+$ git merge issue3
 Updating 8f7aa27..96a0ff0
 Fast-forward
- myfile.txt |    1 +
+ myfile.txt |    1
  1 files changed, 1 insertions(+), 0 deletions(-)
+```
 
 myfile.txt 의 최종적인 내용은merge 했을 경우와 동일하지만, 그 이력은 아래 그림과 같이 달라집니다.
 
@@ -1506,9 +1603,9 @@ push 하지 않는 한 원격 저장소에 영향을 주지 않고 자신만의 
 
 Git 에서는 일반적으로 이름 정보만을 갖는 '태그(Lightweight tag)'와 보다 상세한 정보를 포함하는 '주석 태그(Annotated tag)', 이 두 가지 태그를 사용할 수 있습니다.
 
--   **일반 태그(Lightweight tag)**
+- 일반 태그(Lightweight tag)
     -   이름만 붙일 수 있어요
--   **주석 태그(Annotated tag)**
+- 주석 태그(Annotated tag)
     -   이름을 붙일 수 있어요
     -   태그에 대한 설명도 포함할 수 있어요
     -   서명도 넣을 수 있어요
@@ -1528,20 +1625,24 @@ Git 에서는 일반적으로 이름 정보만을 갖는 '태그(Lightweight tag
 
 로컬에「tutorial」이라는 이름으로 빈 폴더를 만들어 로컬 저장소로 등록해 봅시다.
 
-$ **mkdir tutorial**
-$ **cd tutorial**
-$ **git init**
+```bash
+$ mkdir tutorial
+$ cd tutorial
+$ git init
 Initialized empty Git repository in /Users/eguchi/Desktop/tutorial/.git/
+```
 
 tutorial 폴더에 다음과 같은 내용의 myfile.txt 라는 이름으로 파일을 만든 후 커밋합니다.
 
-**원숭이도 이해할 수 있는 Git 명령어**
+```txt
+원숭이도 이해할 수 있는 Git 명령어
 
-$ **git add myfile.txt**
-$ **git commit -m "first commit"**
+$ git add myfile.txt
+$ git commit -m "first commit"
 [master (root-commit) a73ae49] first commit
  1 files changed, 1 insertions(+), 0 deletions(-)
  create mode 100644 myfile.txt
+```
 
 여기까지 진행했다면, 아래 그림과 같은 이력이 남게 됩니다.
 
@@ -1553,25 +1654,33 @@ $ **git commit -m "first commit"**
 
 태그를 추가하려면 tag 명령어를 사용합니다. <tagname>에는 태그 이름을 지정합니다.
 
+```bash
 $ git tag <tagname>
+```
 
 현재 'HEAD'가 가리키고 있는 커밋에 'apple' 이라는 태그를 달려면, 다음과 같은 명령어를 실행합니다.
 
-$ **git tag apple**
+```bash
+$ git tag apple
+```
 
 파라미터 없이 tag 명령어를 실행하면, 태그 목록을 볼 수 있습니다.
 
-$ **git tag**
+```bash
+$ git tag
 apple
+```
 
 또한 log 명령어에 --decorate 옵션을 붙여 실행하면, 태그 정보를 포함한 이력을 확인할 수 있습니다.
 
-$ **git log --decorate**
+```bash
+$ git log --decorate
 commit e7978c94d2104e3e0e6e4a5b4a8467b1d2a2ba19 (HEAD, tag: apple, master)
 Author: yourname <yourname@yourmail.com>
 Date:   Wed Jul 18 16:43:27 2012 +0900
 
     first commit
+```
 
 ![현재 HEAD가 가리키고 있는 커밋에 apple이라는 태그를 달기](https://backlog.com/git-tutorial/kr/img/post/stepup/capture_stepup5_2_1.png)
 
@@ -1581,17 +1690,23 @@ Date:   Wed Jul 18 16:43:27 2012 +0900
 
 주석이 달린 태그를 추가하려면 tag 명령어에 -a 옵션을 지정하여 실행하면 됩니다. 엔터키를 눌러 실행한 후 태그에 대한 주석 내용을 바로 입력합니다. -m 옵션을 지정하여 명령어를 실행할 때에 바로 내용을 입력할 수도 있습니다.
 
+```bash
 $ git tag -a <tagname>
+```
 
 현재 'HEAD'가 가리키고 있는 커밋에 'banana'라는 주석이 달린 태그를 달려면 다음과 같이 명령어를 실행하면 됩니다.
 
-$ **git tag -am "누구나 쉽게 이해할 수 있는 Git 입문" banana**
+```bash
+$ git tag -am "누구나 쉽게 이해할 수 있는 Git 입문" banana
+```
 
 -n 옵션을 지정하여 tag 명령어를 실행하면 태그 목록과 주석 내용을 확인할 수 있습니다.
 
-$ **git tag -n**
+```bash
+$ git tag -n
 apple           first commit
 banana          누구나 쉽게 이해할 수 있는 Git 입문
+```
 
 ![현재 HEAD가 가리키고 있는 커밋에 banana라는 주석이 달린 태그를 달기](https://backlog.com/git-tutorial/kr/img/post/stepup/capture_stepup5_3_1.png)
 
@@ -1601,7 +1716,9 @@ banana          누구나 쉽게 이해할 수 있는 Git 입문
 
 태그를 삭제하려면, tag 명령어에 -d 옵션을 지정하여 실행합니다.
 
+```bash
 $ git tag -d <tagname>
+```
 
 ![태그를 삭제](https://backlog.com/git-tutorial/kr/img/post/stepup/capture_stepup5_4_1.png)
 
@@ -1617,10 +1734,10 @@ $ git tag -d <tagname>
 
 ![이전에 작성한 커밋 수정하기](https://backlog.com/git-tutorial/kr/img/post/stepup/capture_stepup6_1_1.png)
 
-**이럴 때 사용해 보세요 :**
+이럴 때 사용해 보세요 :
 
--   누락된 파일을 새로 추가하거나 기존의 파일을 업데이트 해야할 때
--   이전 커밋의 설명을 변경하고 싶을 때
+- 누락된 파일을 새로 추가하거나 기존의 파일을 업데이트 해야할 때
+- 이전 커밋의 설명을 변경하고 싶을 때
 
 ----
 
@@ -1636,9 +1753,9 @@ revert 명령어를 이용하면, 특정 커밋의 내용을 삭제할 수 있�
 
 ![이전에 작성한 커밋 지우기](https://backlog.com/git-tutorial/kr/img/post/stepup/capture_stepup6_2_2.png)
 
-**이럴 때 사용해 보세요 :**
+이럴 때 사용해 보세요 :
 
--   이전에 작성한 커밋을 안전하게 지우고 싶을 때
+- 이전에 작성한 커밋을 안전하게 지우고 싶을 때
 
 ----
 
@@ -1660,11 +1777,11 @@ reset 명령어를 이용하면 더 이상 필요 없어진 커밋들을 버릴 
 
 ![커밋을 버리고 특정 버전으로 다시 되돌아가기](https://backlog.com/git-tutorial/kr/img/post/stepup/capture_stepup6_3_2.png)
 
-**이럴 때 사용해 보세요 :**
+이럴 때 사용해 보세요 :
 
--   커밋만 되돌리고 싶을 때 (soft)
--   변경한 인덱스의 상태를 원래대로 되돌리고 싶을 때 (mixed)
--   최근의 커밋을 완전히 버리고 이전의 상태로 되돌리고 싶을 때 (hard)
+- 커밋만 되돌리고 싶을 때 (soft)
+- 변경한 인덱스의 상태를 원래대로 되돌리고 싶을 때 (mixed)
+- 최근의 커밋을 완전히 버리고 이전의 상태로 되돌리고 싶을 때 (hard)
 
 ----
 
@@ -1678,10 +1795,10 @@ cherry-pick 을 이용하면 다른 브랜치에서 지정한 커밋을 복사�
 
 ![다른 브랜치로부터 특정 커밋을 가져와서 내 브랜치에 넣기](https://backlog.com/git-tutorial/kr/img/post/stepup/capture_stepup6_4_2.png)
 
-**이럴 때 사용해 보세요 :**
+이럴 때 사용해 보세요 :
 
--   특정 브랜치에 잘못 추가한 커밋을 올바른 브랜치로 옮기려고 할 때
--   다른 브랜치의 커밋을 현재 브랜치에도 추가하고 싶을 때
+- 특정 브랜치에 잘못 추가한 커밋을 올바른 브랜치로 옮기려고 할 때
+- 다른 브랜치의 커밋을 현재 브랜치에도 추가하고 싶을 때
 
 ----
 
@@ -1697,11 +1814,11 @@ rebase 명령어에 'i' 옵션을 지정하면 커밋을 다시 쓰거나 다른
 
 ![커밋 이력 편집하기](https://backlog.com/git-tutorial/kr/img/post/stepup/capture_stepup6_5_3.png)
 
-**이럴 때 사용해 보세요 :**
+이럴 때 사용해 보세요 :
 
--   push 하기 전에 이전의 커밋 내용을 정리하고자 할 때
--   그룹으로 묶을 수 있는 커밋들을 알기 쉽게 하나로 통합하려고 할 때
--   이전 커밋에 누락된 파일들을 나중에 추가하고자 할 때
+- push 하기 전에 이전의 커밋 내용을 정리하고자 할 때
+- 그룹으로 묶을 수 있는 커밋들을 알기 쉽게 하나로 통합하려고 할 때
+- 이전 커밋에 누락된 파일들을 나중에 추가하고자 할 때
 
 ----
 
@@ -1717,9 +1834,9 @@ rebase 명령어에 'i' 옵션을 지정하면 커밋을 다시 쓰거나 다른
 
 ![squash 옵션](https://backlog.com/git-tutorial/kr/img/post/stepup/capture_stepup6_6_2.png)
 
-**이럴 때 사용해 보세요 :**
+이럴 때 사용해 보세요 :
 
--   토픽 브랜치 안의 커밋을 한꺼번에 모아서 통합 브랜치에 병합하고자 할 때
+- 토픽 브랜치 안의 커밋을 한꺼번에 모아서 통합 브랜치에 병합하고자 할 때
 
 ----
 
@@ -1739,7 +1856,8 @@ rebase 명령어에 'i' 옵션을 지정하면 커밋을 다시 쓰거나 다른
 
 log 명령어를 실행하여 이력을 확인합니다.
 
-$ **git log**
+```bash
+$ git log
 commit 326fc9f70d022afdd31b0072dbbae003783d77ed
 Author: yourname <yourname@yourmail.com>
 Date:   Mon Jul 16 23:17:56 2012 +0900
@@ -1751,25 +1869,31 @@ Author: yourname <yourname@yourmail.com>
 Date:   Mon Jul 16 23:16:14 2012 +0900
 
     first commit
+```
 
 이제 sample.txt 파일을 열고 commit 의 설명을 추가합니다.
 
+```txt
 원숭이도 이해할 수 있는 Git 명령어
 add: 변경 사항을 만들어서 인덱스에 등록해보기
-**commit: 인덱스의 상태를 기록하기**
+commit: 인덱스의 상태를 기록하기
+```
 
 --amend 옵션을 이용하여 커밋합니다.
 
-$ **git add sample.txt**
-$ **git commit --amend**
+```bash
+$ git add sample.txt
+$ git commit --amend
+```
 
-열려진 편집기에서는 최근에 커밋한 내용이 포함되어 있을 것입니다. 내용을「**add와 commit의 설명을 추가**」로 바꾸어 넣은 다음 저장하고 빠져 나옵니다.
+열려진 편집기에서는 최근에 커밋한 내용이 포함되어 있을 것입니다. 내용을「add와 commit의 설명을 추가」로 바꾸어 넣은 다음 저장하고 빠져 나옵니다.
 
 이로써 커밋의 내용이 수정 되었습니다. log 명령어에서 이력과 커밋 메시지를 확인해 봅니다.
 
 ![commit --amend](https://backlog.com/git-tutorial/kr/img/post/stepup/capture_stepup7_1_2.png)
 
-$ **git log**
+```bash
+$ git log
 commit e9d75a02e62814541ee0410d9c1d1bf47ab1c057
 Author: yourname <yourname@yourmail.com>
 Date:   Mon Jul 16 23:17:56 2012 +0900
@@ -1781,6 +1905,7 @@ Author: yourname <yourname@yourmail.com>
 Date:   Mon Jul 16 23:16:14 2012 +0900
 
     first commit
+```
 
 ----
 
@@ -1798,7 +1923,8 @@ Date:   Mon Jul 16 23:16:14 2012 +0900
 
 log 명령어를 실행하여 이력을 확인합니다.
 
-$ **git log**
+```bash
+$ git log
 commit 0d4a808c26908cd5fe4b6294a00150342d1a58be
 Author: yourname <yourname@yourmail.com>
 Date:   Mon Jul 16 23:19:26 2012 +0900
@@ -1822,19 +1948,24 @@ Author: yourname <yourname@yourmail.com>
 Date:   Mon Jul 16 23:16:14 2012 +0900
 
     first commit
+```
 
 sample.txt 파일을 열어 내용을 확인합니다.
 
+```txt
 원숭이도 이해할 수 있는 Git 명령어
 add: 변경 사항을 만들어서 인덱스에 등록해보기
 commit: 인덱스의 상태를 기록하기
 pull: 원격 저장소의 내용을 가져오기
+```
 
 revert 를 사용하여 'pull의 설명을 추가'하는 커밋을 취소합니다.
 
-$ **git revert HEAD**
+```bash
+$ git revert HEAD
 [master d47bb1d] Revert "pull의 설명을 추가"
  1 files changed, 1 insertions(+), 2 deletions(-)
+```
 
 sample.txt 를 열어 pull 의 설명이 지워졌는지 확인합니다.
 
@@ -1842,7 +1973,8 @@ sample.txt 를 열어 pull 의 설명이 지워졌는지 확인합니다.
 
 log 명령어를 실행하여 이력을 확인합니다.
 
-$ **git log**
+```bash
+$ git log
 commit 7bcf5e3b6fc47e875ec226ce2b13a53df73cf626
 Author: yourname <yourname@yourmail.com>
 Date:   Wed Jul 18 15:46:28 2012 +0900
@@ -1874,6 +2006,7 @@ Author: yourname <yourname@yourmail.com>
 Date:   Mon Jul 16 23:16:14 2012 +0900
 
     first commit
+```
 
 ----
 
@@ -1891,7 +2024,8 @@ Date:   Mon Jul 16 23:16:14 2012 +0900
 
 log 명령어를 실행하여 이력을 확인합니다.
 
-$ **git log**
+```bash
+$ git log
 commit 0d4a808c26908cd5fe4b6294a00150342d1a58be
 Author: yourname <yourname@yourmail.com>
 Date:   Mon Jul 16 23:19:26 2012 +0900
@@ -1915,24 +2049,30 @@ Author: yourname <yourname@yourmail.com>
 Date:   Mon Jul 16 23:16:14 2012 +0900
 
     first commit
+```
 
 sample.txt 를 열어 내용을 확인합니다.
 
+```txt
 원숭이도 이해할 수 있는 Git 명령어
 add: 변경 사항을 만들어서 인덱스에 등록해보기
 commit: 인덱스의 상태를 기록하기
 pull: 원격 저장소의 내용을 가져오기
+```
 
 reset 을 사용하여 커밋을 삭제합니다.
 
 ![commit를 삭제](https://backlog.com/git-tutorial/kr/img/post/stepup/capture_stepup7_3_2.png)
 
-$ **git reset --hard HEAD~~**
+```bash
+$ git reset --hard HEAD~~
 HEAD is now at 326fc9f add의 설명을 추가
+```
 
 sample.txt 를 열어, commit 과 pull 의 설명이 지워졌는지 확인합니다. 또한 log 명령어를 실행하여 이력을 확인합니다.
 
-$ **git log**
+```bash
+$ git log
 commit 326fc9f70d022afdd31b0072dbbae003783d77ed
 Author: yourname <yourname@yourmail.com>
 Date:   Mon Jul 16 23:17:56 2012 +0900
@@ -1944,12 +2084,14 @@ Author: yourname <yourname@yourmail.com>
 Date:   Mon Jul 16 23:16:14 2012 +0900
 
     first commit
-                        
+```
 
 reset 전의 커밋은 'ORIG_HEAD'라는 이름으로 참조할 수 있습니다. 실수로 reset 을 한 경우에는, 'ORIG_HEAD'로 reset 하여 reset 실행 전의 상태로 되돌릴 수 있습니다.
 
-$ **git reset --hard ORIG_HEAD**
+```bash
+$ git reset --hard ORIG_HEAD
 HEAD is now at 0d4a808 pull의 설명을 추가
+```
 
 ----
 
@@ -1965,18 +2107,22 @@ HEAD is now at 0d4a808 pull의 설명을 추가
 
 'master' 브랜치로 이동 한 후, cherry-pick 을 사용하여 「commit의 설명을 추가」한 커밋을 꺼내 'master'에 추가합니다. (문서 내의 커밋 "99daed2"와, 다운로드한 저장소 내의 커밋은 다를 가능성이 있습니다. 다운로드한 저장소 내에서 'git log'를 실행하여, 적절한 커밋을 확인하고 사용하세요. )
 
-$ **git checkout master**
+```bash
+$ git checkout master
 Switched to branch 'master'
-$ **git cherry-pick 99daed2**
+$ git cherry-pick 99daed2
 error: could not apply 99daed2... commit
 hint: after resolving the conflicts, mark the corrected paths
 hint: with 'git add <paths>' or 'git rm <paths>'
 hint: and commit the result with 'git commit'
+```
 
 충돌이 발생했습니다. sample.txt 를 열고 충돌 부분을 수정한 후 커밋합니다.
 
-$ **git add sample.txt**
-$ **git commit**
+```bash
+$ git add sample.txt
+$ git commit
+```
 
 ----
 
@@ -1992,14 +2138,18 @@ $ **git commit**
 
 과거의 커밋을 통합할 때는 'rebase -i' 를 사용합니다.
 
-$ **git rebase -i HEAD~~**
+```bash
+$ git rebase -i HEAD~~
+```
 
 텍스트 에디터가 열리고 'HEAD'에서 'HEAD~~'까지의 커밋이 다음과 같이 표시됩니다.
 
+```bash
 pick 9a54fd4 commit의 설명 추가
 pick 0d4a808 pull의 설명을 추가
-
 ```
+
+```bash
 ## Rebase 326fc9f..0d4a808 onto d286baa
 #
 ## Commands:
@@ -2015,7 +2165,7 @@ pick 0d4a808 pull의 설명을 추가
 #
 ```
 
-두 번째 줄의 'pick' 문자를  **squash**로 변경하고 저장 · 종료합니다.
+두 번째 줄의 'pick' 문자를  squash로 변경하고 저장 · 종료합니다.
 
 이로써 두 개의 커밋이 하나의 커밋으로 통합 되었습니다. log 명령어를 실행하여 이력을 확인합니다.
 
@@ -2035,14 +2185,18 @@ pick 0d4a808 pull의 설명을 추가
 
 'rebase -i' 를 사용하여 수정할 커밋을 선택합니다.
 
-$ **git rebase -i HEAD~~**
+```bash
+$ git rebase -i HEAD~~
+```
 
 텍스트 에디터가 열리고, 'HEAD'에서 'HEAD~~' 까지의 커밋이 다음과 같이 표시됩니다.
 
+```
 pick 9a54fd4 commit의 설명 추가
 pick 0d4a808 pull 설명을 추가
-
 ```
+
+```bash
 ## Rebase 326fc9f..0d4a808 onto d286baa
 #
 ## Commands:
@@ -2058,8 +2212,9 @@ pick 0d4a808 pull 설명을 추가
 #
 ```
 
-첫 번째 줄의 'pick' 문자를 '**edit**'으로 변경하여 저장 · 종료합니다. 그러면 다음과 같은 출력 되고 수정할 커밋이 체크아웃된 상태가 됩니다.
+첫 번째 줄의 'pick' 문자를 'edit'으로 변경하여 저장 · 종료합니다. 그러면 다음과 같은 출력 되고 수정할 커밋이 체크아웃된 상태가 됩니다.
 
+```bash
 Stopped at d286baa... commit의 설명 추가
 You can amend the commit now, with
 
@@ -2068,22 +2223,29 @@ You can amend the commit now, with
 Once you are satisfied with your changes, run
 
         git rebase --continue
+```
 
 sample.txt 를 열어, commit 의 설명 부분을 적당히 변경합니다.
 
+```txt
 원숭이도 이해할 수 있는 Git 명령어
 add: 변경 사항을 만들어서 인덱스에 등록해보기
-**commit: 인덱스의 상태를 저장하기**
+commit: 인덱스의 상태를 저장하기
 pull: 원격 저장소의 내용을 가져오기
+```
 
 commit  --amend 를 실행하여 변경한 내용을 저장합니다.
 
-$ **git add sample.txt**
-$ **git commit --amend**
+```bash
+$ git add sample.txt
+$ git commit --amend
+```
 
 commit 을 실행했다고 해서 rebase 작업이 끝난 것은 아닙니다. 이 커밋 작업이 종료했다는 것을 알리려면,  --continue 옵션을 지정하여 rebase 를 실행해야 합니다.
 
-$ **git rebase --continue**
+```bash
+$ git rebase --continue
+```
 
 Note
 
@@ -2109,19 +2271,23 @@ rebase 전의 커밋은 'ORIG_HEAD'라는 이름으로 남아 있습니다. 만�
 
 'master' 브랜치로 이동한 후, '--squash' 옵션을 지정하여 merge 를 실행합니다.
 
-$ **git checkout master**
+```bash
+$ git checkout master
 Switched to branch 'master'
-$ **git merge --squash issue1**
+$ git merge --squash issue1
 Auto-merging sample.txt
 CONFLICT (content): Merge conflict in sample.txt
 Squash commit -- not updating HEAD
 Automatic merge failed; fix conflicts and then commit the result.
+```
 
 충돌이 발생했으므로, sample.txt를 열어 충돌 부분을 수정한 후 커밋합니다.
 
-$ **git add sample.txt**
-$ **git commit**
+```bash
+$ git add sample.txt
+$ git commit
 [master 0d744a7] Conflicts:   sample.txt
  1 files changed, 4 insertions(+), 0 deletions(-)
+```
 
 이로써 'issue1' 브랜치 상의 모든 커밋을 하나로 병합한 내용이 'master' 브랜치에 추가되었습니다. log 명령어를 실행하여 이력을 확인합니다.
