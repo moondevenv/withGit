@@ -1,3 +1,5 @@
+>> Git의 기본
+
 # [시작하기](https://backlog.com/git-tutorial/kr/intro/intro1_1.html)
 
 안녕, 하카타에서 태어난 원숭이 킥킥이야. 오늘은 나랑 같이 버전 관리 시스템, 'Git(깃)' 을 공부해보자.
